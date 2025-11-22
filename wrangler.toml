@@ -1,0 +1,19 @@
+name = "abadi-cahaya-inti"
+compatibility_date = "2024-01-01"
+
+# D1 Database binding
+# Replace YOUR_D1_DATABASE_ID with your actual D1 database ID
+[[d1_databases]]
+binding = "DB"
+database_name = "abadi-cahaya-inti-db"
+database_id = "03110821-d48e-41d1-84db-50951bf83370"
+
+# R2 Bucket binding (for file uploads)
+# [[r2_buckets]]
+# binding = "UPLOADS"
+# bucket_name = "abadi-uploads"
+
+# Environment variables (can also be set in Cloudflare Dashboard)
+# [vars]
+# NEXT_PUBLIC_SITE_URL = "https://abadicahayainti.co.id"
+

@@ -1,0 +1,14 @@
+# Environment Variables untuk Cloudflare Pages
+# Copy-paste ini ke Cloudflare Pages → Settings → Environment Variables
+
+# Production Environment Variables:
+DATABASE_URL=file:./prisma/dev.db
+NEXTAUTH_URL=https://admin.abadicahayainti.co.id
+NEXTAUTH_SECRET=WC2cEAetnM1LgG7TrlSKdBzIjHGXj34WYnAV7CYeTaA=
+NEXT_PUBLIC_SITE_URL=https://abadicahayainti.co.id
+
+# Catatan:
+# - DATABASE_URL: D1 binding akan handle ini otomatis
+# - NEXTAUTH_SECRET: Generate dengan: openssl rand -base64 32
+# - Pastikan semua variables di-set untuk "Production" environment
+
